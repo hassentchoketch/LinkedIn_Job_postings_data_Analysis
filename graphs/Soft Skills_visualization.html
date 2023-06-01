@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v1.0.0.css">
+
+
+<div id="ldavis_el211223359196961128799677210" style="background-color:white;"></div>
+<script type="text/javascript">
+
+var ldavis_el211223359196961128799677210_data = {"mdsDat": {"x": [0.09138649055501394, -0.09138649055501394], "y": [0.0, 0.0], "topics": [1, 2], "cluster": [1, 1], "Freq": [99.83968189835385, 0.16031810164614538]}, "tinfo": {"Term": ["analytical thinking", "collaboration", "communication skills", "cooperation", "curiosity", "data presentation", "data analysis", "experience", "decision making", "project management", "solutions", "working together", "teamwork", "analytical thinking", "collaboration", "communication skills", "cooperation", "curiosity", "data analysis", "data presentation", "decision making", "experience", "project management", "solutions", "working together", "teamwork", "teamwork", "working together", "solutions", "project management", "experience", "decision making", "data presentation", "data analysis", "curiosity", "cooperation", "communication skills", "collaboration", "analytical thinking"], "Freq": [150.0, 78.0, 55.0, 13.0, 12.0, 8.0, 8.0, 6.0, 6.0, 4.0, 2.0, 1.0, 1.0, 150.49667453603055, 78.90832244097447, 55.355586705737196, 13.230400078372428, 12.254860169405168, 8.328020441283513, 8.321262998439305, 6.371668490133997, 6.369402123732193, 4.41139042694092, 2.4499568878848894, 1.4708442950636655, 1.4705252008280296, 0.040581356112045705, 0.04055500984316909, 0.04074284929205755, 0.04085423355763666, 0.041246919218630024, 0.041061057203124404, 0.04214700257992258, 0.041591151490813494, 0.041486464578890415, 0.04196828942506104, 0.04812184472019563, 0.04818027724956542, 0.05257686835187861], "Total": [150.0, 78.0, 55.0, 13.0, 12.0, 8.0, 8.0, 6.0, 6.0, 4.0, 2.0, 1.0, 1.0, 150.54925140438243, 78.95650271822404, 55.40370855045739, 13.272368367797489, 12.296346633984058, 8.369611592774326, 8.363410001019227, 6.412729547337121, 6.410649042950824, 4.452244660498557, 2.490699737176947, 1.5113993049068346, 1.5111065569400752, 1.5111065569400752, 1.5113993049068346, 2.490699737176947, 4.452244660498557, 6.410649042950824, 6.412729547337121, 8.363410001019227, 8.369611592774326, 12.296346633984058, 13.272368367797489, 55.40370855045739, 78.95650271822404, 150.54925140438243], "Category": ["Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Default", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2"], "logprob": [13.0, 12.0, 11.0, 10.0, 9.0, 8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, -0.8424, -1.488, -1.8426, -3.2738, -3.3504, -3.7367, -3.7375, -4.0045, -4.0048, -4.3721, -4.9603, -5.4705, -5.4707, -2.6266, -2.6273, -2.6226, -2.6199, -2.6103, -2.6149, -2.5888, -2.602, -2.6046, -2.593, -2.4562, -2.455, -2.3676], "loglift": [13.0, 12.0, 11.0, 10.0, 9.0, 8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0013, 0.001, 0.0007, -0.0016, -0.0018, -0.0034, -0.0034, -0.0048, -0.0049, -0.0076, -0.0149, -0.0256, -0.0256, 2.8185, 2.8176, 2.3227, 1.7446, 1.3896, 1.3848, 1.1453, 1.1313, 0.7441, 0.6792, -0.6129, -0.9659, -1.524]}, "token.table": {"Topic": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "Freq": [0.9963516829259608, 1.0005509018292158, 0.9927133298290002, 0.9794785406605854, 0.9758996193906059, 0.9558388595841867, 0.9565476281833678, 0.9356390216848446, 0.9359426728558202, 0.8984232235683304, 0.8029871967894755, 0.6617667003079891, 0.6616385205110583], "Term": ["analytical thinking", "collaboration", "communication skills", "cooperation", "curiosity", "data analysis", "data presentation", "decision making", "experience", "project management", "solutions", "teamwork", "working together"]}, "R": 13, "lambda.step": 0.01, "plot.opts": {"xlab": "PC1", "ylab": "PC2"}, "topic.order": [1, 2]};
+
+function LDAvis_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(LDAvis) !== "undefined"){
+   // already loaded: just create the visualization
+   !function(LDAvis){
+       new LDAvis("#" + "ldavis_el211223359196961128799677210", ldavis_el211223359196961128799677210_data);
+   }(LDAvis);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/LDAvis
+   require.config({paths: {d3: "https://d3js.org/d3.v5"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      LDAvis_load_lib("https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v3.0.0.js", function(){
+        new LDAvis("#" + "ldavis_el211223359196961128799677210", ldavis_el211223359196961128799677210_data);
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & LDAvis
+    LDAvis_load_lib("https://d3js.org/d3.v5.js", function(){
+         LDAvis_load_lib("https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v3.0.0.js", function(){
+                 new LDAvis("#" + "ldavis_el211223359196961128799677210", ldavis_el211223359196961128799677210_data);
+            })
+         });
+}
+</script>
