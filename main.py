@@ -4,16 +4,16 @@ import subprocess
 
 def main(): 
     #- Scrapping Data 
-    # subprocess.run(['python','Scraping.py'])
+    subprocess.run(['python','Scraping.py'])
 
     # Cleaning Data 
     subprocess.run(['python','Cleaning.py'])
 
     # Exploratory Data Analysis 
-    # subprocess.run(['python','Exploratory_data_analysis.py'])
+    subprocess.run(['python','Exploratory_data_analysis.py'])
     
     # Sementic Analysis of job description 
-    # subprocess.run(['python','Semantic_analysis_for_ job_description.py'])
+    subprocess.run(['python','Semantic_analysis_for_ job_description.py'])
 if __name__ == '__main__':
     main()
 

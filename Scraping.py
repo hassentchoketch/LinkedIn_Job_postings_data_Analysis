@@ -36,12 +36,13 @@ def main():
     location = 'Germany'
     job_keywords = job_name.replace(' ','%20')
     linke = f'https://www.linkedin.com/jobs/search/?currentJobId=3601247028&geoId=101282230&keywords={job_keywords}&location={location}&refresh=true'
-    time.sleep(10)
+    time.sleep(5)
     print(' -------------------------- Done -------------------------------------')
 
     print('------------  Geting the link of each job page  ----------------------')
     # Extract the link of each job page from job listing pages
-    links = scraper.listing_jobs_scrapper(linke,10)
+    pages_num = 10 
+    links = scraper.listing_jobs_scrapper(linke,pages_num)
     print(' -------------------------- Done -------------------------------------')
 
     print('------------  Geting the job details from each job page --------------')
